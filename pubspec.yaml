@@ -22,5 +22,5 @@ flutter:
       android:
         package: com.hisaichi5518.native_webview
         pluginClass: NativeWebviewPlugin
-      ios:
-        pluginClass: NativeWebviewPlugin
+      # ios:
+      #   pluginClass: NativeWebviewPlugin
