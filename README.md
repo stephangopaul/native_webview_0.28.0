@@ -2,6 +2,12 @@
 
 A Flutter plugin that allows you to add an inline WebView.
 
+## NOTE
+
+This version downgrades the android version to API Level 20.
+
+- [The original version of this library can be found here](https://github.com/hisaichi5518/native_webview)
+
 ## Motivation
 
 There is already a useful library for working with WebViews in Flutter.
@@ -14,7 +20,7 @@ native_webview is designed to provide users with a standard set of WebView featu
 
 - Dart: >=2.10.0 <3.0.0
 - Flutter: >=1.22.0 <2.0.0
-- Android: minSdkVersion 24, AndroidX, Kotlin, Chrome version >= 74.0.3729.185
+- Android: minSdkVersion 20, AndroidX, Kotlin, Chrome version >= 74.0.3729.185
 - iOS: iOS version >= 11.0, Xcode version >= 11, Swift
 
 ## Getting Started
